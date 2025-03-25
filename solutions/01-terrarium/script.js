@@ -39,6 +39,7 @@ function dragElement(terrariumElement) {
 		// when the mouse is lifted, stop the drag
 		document.onpointerup = stopElementDrag;
 	}
+	
 
 	function elementDrag(e) {
 		// calculate the new cursor position
